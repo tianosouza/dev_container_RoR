@@ -1,5 +1,8 @@
 # Ruby on Rails e Docker - parte 01.
-Crie um aplicativo RoR 7 com Docker pela primeira vez.
+
+- instalar docker desktop para windows -> [Docker para windows](https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe?_gl=1*a5vhn1*_ga*MTkxMzk4ODQ5MS4xNzEzMDI1Mzc3*_ga_XJWPQMJYHQ*MTcxNTYzNDc4Mi44LjEuMTcxNTYzNDgwMi40MC4wLjA.) <br /><br />
+
+## Crie um aplicativo RoR 7 com Docker pela primeira vez.
 
 Nesta lição você poderá visualizar a configuração feita para criação de aplicações Ruby on Rails 7 utilizando Docker. Antes de continuar, certifique-se de ter o Docker instalado em seu computador.
 
