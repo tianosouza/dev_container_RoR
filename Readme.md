@@ -4,23 +4,17 @@
 
 ## Crie um aplicativo RoR 7 com Docker pela primeira vez.
 
-Nesta lição você poderá visualizar a configuração feita para criação de aplicações Ruby on Rails 7 utilizando Docker. Antes de continuar, certifique-se de ter o Docker instalado em seu computador.
-
-
-
 Observações.
 
 Se você estiver usando Windows, recomendo instalar o WSL2 para que o processo não demore muito. Se você usa Linux, o processo de criação de contêineres será muito mais rápido. Neste link https://learn.microsoft.com/es-es/windows/wsl/install você encontrará mais informações sobre como instalar o WSL2 no Windows.
 
 
-
 Desenvolvimento.
-
 
 
 1. Crie uma pasta e nomeie-a como quiser. Dentro da pasta, crie um arquivo chamado Dockerfile e cole a seguinte configuração. Na linha WORKDIR, digite o nome desejado. Este diretório será criado no contêiner.
 
-FROM ruby:3.0.4
+FROM ruby:3.3.0
 
 WORKDIR /myapp
 
