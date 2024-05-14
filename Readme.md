@@ -46,7 +46,7 @@ Desenvolvimento.
 
 1. Crie um Dockerfile na raiz da aplicação. Podem ser solicitadas permissões de edição se você estiver usando Linux, então abra um novo terminal e digite o seguinte comando: sudo chown -R nomedeusuário:nomedeusuário . (nome de usuário é o seu nome de usuário do Linux).
 
-FROM ruby:3.0.4
+FROM ruby:3.3.0
 
 WORKDIR /myapp
 
